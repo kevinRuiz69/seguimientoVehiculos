@@ -80,4 +80,19 @@ public class AutoRent {
     public void agregarAlquiler(Alquiler alquiler){
         listaAlquileres.add(alquiler);
     }
+
+
+    @Override
+    public String toString() {
+        return "AutoRent{" +
+                "codigo='" + codigo + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", listaClientes=" + listaClientes +
+                ", listaAlquileres=" + listaAlquileres +
+                ", listaVehiculos=" + listaVehiculos +
+                '}';
+    }
 }
+
+
