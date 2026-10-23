@@ -18,4 +18,6 @@ public class Carro extends Vehiculo{
     public double calcularDiferencia() {
         return getTarifaBase()+20000;
     }
+
+
 }

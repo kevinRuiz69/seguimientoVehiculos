@@ -46,4 +46,13 @@ public class Alquiler {
         double total= vehiculo.calcularDiferencia()*dias;
         return total;
     }
+
+    @Override
+    public String toString() {
+        return "fecha='" + fecha + '\'' +
+                ", dias=" + dias +
+                ", cliente=" + cliente +
+                ", vehiculo=" + vehiculo +
+                '}';
+    }
 }
